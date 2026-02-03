@@ -1,16 +1,45 @@
-# React + Vite
+# Amphibia Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A simple memory card game built with React. Test your memory by clicking on unique cards — but don't click the same card twice!
 
-Currently, two official plugins are available:
+## 📝 Описание проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Memory Card — это интерактивная игра на память. Пользователь видит сетку карточек с изображениями покемонов. Цель — кликать на карточки, которые ещё не были выбраны. Если кликнуть на одну карточку дважды, счет сбрасывается. Игра ведет текущий счет и лучший результат.  
 
-## React Compiler
+Проект создан для практики:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React Hooks** (`useState`, `useEffect`)  
+- **Component architecture**: Presentational & Container components  
+- **Асинхронный fetch** для получения данных из внешнего API  
+- **Сетка карточек через CSS Grid**  
+- **Responsive дизайн**  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Функционал
+
+- Fetch карточек из [PokéAPI](https://pokeapi.co/)  
+- Shuffle карточек после каждого клика  
+- Подсчет текущего и лучшего счета  
+- Hover-анимация карточек  
+- Адаптивная сетка для разных экранов  
+
+---
+
+## 💻 Технологии
+
+- **React 18+**
+- **JavaScript (ES6+)**
+- **CSS Grid & Flexbox**
+- **Fetch API**
+- **PokéAPI** для данных покемонов
+
+
+##📝 Планы по улучшению
+
+- Добавить TypeScript для типизации компонентов
+- Сделать анимации при клике на карточки
+- Подсветка выбранной карточки
+- Улучшить адаптивность под мобильные устройства
+- Добавить счетчик времени и уровни сложности
+
