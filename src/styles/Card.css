@@ -1,0 +1,26 @@
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-name {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 2px solid rgb(128, 123, 112);
+  border-radius: 12px;
+  background-color: #1e293b;
+  transition: transform 200ms ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}

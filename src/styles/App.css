@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1.5rem;
+  min-height: 100vh;
+  background-color: #63612d;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.Game-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.game-instruction-text {
+  font-size: 1.2rem;
+  max-width: 670px;
+  line-height: 1.5;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2rem;
+}
